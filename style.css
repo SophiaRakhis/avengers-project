@@ -1,0 +1,193 @@
+body
+{
+  margin: 10px 0 ;
+  padding: 0 ;
+  text-align: center ;
+  font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+  background-image: url(image3.jpg);
+ }
+
+div#conteneur
+{
+  width: 770px ;
+  margin: 0 auto ;
+  text-align: left ;
+  border: 2px solid #000000;
+  background: #fff ;
+}
+
+
+  div#contenu
+  {
+  	padding: 0 30px 0 100px ;
+  }
+  {
+  	color:white;
+  }
+
+  h2
+  {
+  	color: black;
+  }
+
+  p
+  {
+  	color: black
+  }
+
+
+h1#header
+{
+  height: 400px ;
+  background-image: url(image2.jpg);
+  font-family: fantasy;
+  font-size: 300%;
+  font-style: italic;
+  font-weight: bold;
+
+} 
+
+pre
+{
+  overflow: auto ;
+}
+
+div#contenu h2
+{
+    border-bottom: 1px solid #000000;
+}
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+div#contenu a
+{
+	color: #000000;
+}
+
+div#contenu a:hover
+{
+	color: #000000;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color:#000000;
+
+}
+
+pre
+{
+	overflow: auto ;
+	background: #dea;
+	border: 2px solid #000000 ;
+	padding: 5px 0 0 5px ;
+	font-size: 1.2em ;
+}
+
+pre span
+{
+	color: #560 ;
+}
+
+pre span.comment
+{
+	color: #b30000 ;
+}
+
+
+h1#header a
+{
+	width: 400px ;
+	height: 70px ;
+	display: block ;
+	background: url(title.gif) no-repeat ;
+	position: relative ;
+	left: 350px ;
+	top: 15px ;
+	text-indent: -100px ;
+	color:red;
+	text-decoration:none;
+}
+
+
+
+ul#menu
+{
+	height: 35px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: url(bg_menu.gif) repeat-x 0 -25px ;
+	list-style-type: none ;
+}
+
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+ul#menu li a
+{
+	width: 130px ;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #000000 ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #000000 ;
+}
+
+ul#menu li a:hover
+{
+	background: url(bg_menu.gif) repeat-x 0 0 ;
+
+}
+
+div#right p
+{
+	text-align: center;
+}
+
+.Principal {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+
+}
+.image{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: -10px;
+	height: 300px;
+
+}
+
+.image img {
+	height: 300px;
+}
+
+.secondaire{
+	display: flex;
+	flex-direction: column;
+	border: solid 1px grey;
+	box-shadow: 1px 1px 1px;
+	margin: 5px;
+	font-size: 12px;
+	max-width: 220px;
+
+
+}
+div#ajout h2
+{
+    border-bottom: 1px solid #000000;
+     }
